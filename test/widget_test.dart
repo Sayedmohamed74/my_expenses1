@@ -8,8 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:my_expenses/main.dart';
-
+import 'package:flutter_complete_guide/main.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
@@ -28,4 +27,8 @@ void main() {
     expect(find.text('1'), findsOneWidget);
   });
 }
+
+
+
+
 
